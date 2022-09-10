@@ -1,18 +1,18 @@
 #include <stdio.h>
 
 /**
- * main – Entry point for the program.
+ * main - Entry point
  *
  * Return: 0
  */
 
 int main(void)
 {
-	int a;
+	char z;
 
-	for (a = '0'; a <= '9'; a++)
+	for (z = 'z'; z >= 'a'; z--)
 	{
-		putchar(a);
+		putchar(z);
 	}
 	putchar('\n');
 	return (0);
