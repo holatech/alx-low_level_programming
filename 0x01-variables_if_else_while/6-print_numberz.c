@@ -1,19 +1,19 @@
 #include <stdio.h>
 
 /**
- * main – Entry point for the program.
- *
- * Return: 0
- */
+ * * main - Entry point for the prpgtamm.
+ * *
+ * * Return: 0
+ * */
 
 int main(void)
 {
-	int a;
+		int a = '0';
 
-	for (a = '0'; a <= '9'; a++)
-	{
-		putchar(a);
-	}
-	putchar('\n');
-	return (0);
+			for (a = '0'; a <= '9'; a++)
+					{
+								putchar(a);
+									}
+				putchar('\n');
+					return (0);
 }
